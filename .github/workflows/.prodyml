@@ -1,0 +1,13 @@
+name: Echo Hello world
+
+on: 
+  workflows:
+
+jobs:
+    say hello:
+      runs on: ubuntu
+
+steps: 
+    name: print hello world
+     runs: Echo "hello world "
+
